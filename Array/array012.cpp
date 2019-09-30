@@ -5,6 +5,13 @@ using namespace std;
 
 int main()
 {
+    
+     /*
+    Invariant: At each index, at 0th index count 0s ,at 1th index 1s count  2s count at index 2.
+    Pre-condition:vaues shoud not be other than 0,1,2
+    Post-condition: a the eemnt in an array had stored 0,1,2 count ony.
+    */
+
     int t;
     cin>>t;
     for(int i=0;i<t;i++)
